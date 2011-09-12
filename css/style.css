@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin:0; 
+	background: url('../images/paper.jpg') scroll top left repeat;
+	padding:0;
+	border:0;
+	font-size:12px;
+	line-height:18px;
+	font-family:sans-serif;
+	min-width:960px; 
+}
+
+h1{font-size:24px;margin-top:18px;color:#133aac}
+h2{font-size:20px;margin-top:12px;color:#133aac}
+h3{font-size:16px;margin-top:6px;color:#133aac}
+a{text-decoration:none;color:#ff9000}
+a:hover{text-decoration:underline;color:#ff9000}
+a:visited{text-decoration:none;color:#ff9000}
+
+#wrapper{margin:12px auto 24px;width:960px;background:#fff}
+
+#header{padding:6px 10px 6px 170px;background:#ffac40}
+#header h1{color:#a65e00}
+#header h2{color:#bf8130}
+#content{}
+#left{padding:6px 10px;width:140px;float:left}
+#center{padding:6px 10px;width:540px;margin-left:160px}
+#right{padding:6px 10px;width:220px;float:right}
+#footer{padding:6px 10px;background:#6d87d6;color:#133aac}
+#footer a{color:#062170}
+
+img.me{margin-top:12px;border:0}
+
+dl.projects dt{font-weight:bold;color:#00A287}
+dl.projects dd{margin:0 0 6px 20px}
+
+ul.social{list-style:none;padding:0;margin-top:12px}
+ul.social li{padding-left:20px}
+li.linkedin{background:url('../images/linkedin_16.png') no-repeat}
+li.rss{background:url('../images/rss_16.png') no-repeat}
+li.gmail{background:url('../images/gmail_16.png') no-repeat}
+li.skype{background:url('../images/skype_16.png') no-repeat}
+li.twitter{background:url('../images/twitter_16.png') no-repeat}
+ul.contact{list-style:none;padding:24px 0 0}
+span.contact{font-style:italic}
