@@ -8,13 +8,22 @@
 	content="Brian Thomas Matthews, brian@btmatthews.com" />
 <meta name="verify-v1"
 	content="cM8208OaXGxOqFk6gatdE4Lq+CpRJs00ekZ0tFVbTSc=" />
-<title>Brian Thomas Matthews</title>
+<title>Brian Thomas Matthews | Technical Architect</title>
+<link rel="icon" href="/images/favicon_16.png" type="image/png" />
+<link rel="shortcut icon" href="/favicon.ico" />
 <link type="text/css" rel="stylesheet" href="css/style.css" />
-<script type="text/javascript"
-	src="http://www.google-analytics.com/ga.js"></script>
 <script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-5713196-1");
-try { pageTracker._trackPageview(); } catch {}
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5713196-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 </head>
 <body>
@@ -22,6 +31,13 @@ try { pageTracker._trackPageview(); } catch {}
 		<div id="header">
 			<h1>Brian Thomas Matthews</h1>
 			<h2>Technical Architect</h2>
+			<ul class="tabs">
+				<li class="selected"><a href="index.html">Biography</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="http://blog.btmatthews.com">Blog</a></li>
+			</ul>
 		</div>
 		<div id="content">
 			<div id="left">
@@ -54,18 +70,42 @@ try { pageTracker._trackPageview(); } catch {}
 			</div>
 			<div id="center">
 				<h2>Professional Biography</h2>
-				<p>Brian Matthews is a Technical Architect with over 20 years
-					experience delivering solutions and products using C/C++ and Java
-					based stacks.</p>
-				<p></p>
+				<p>Brian Matthews is a Technical Architect with over 20 years experience delivering solutions
+				on C/C++ and Java based technology stacks for companies in the financial services, 
+				telecommunications, high technology, and other industries.</p>
+				<p>While completing his undergraduate degree in Computer Applications at <a href="http://www.dcu.ie/">Dublin City University</a>,
+				Brian started working with Polydata developing solutions in Pascal, C++ and assembly language for large petro-chemical companies such
+				as ICI, . After leaving Polydata, Brian, spent the
+				next 8 years plying his trade as a C++ contractor in Ireland, France, USA and UK working with 
+				AT&amp;T Labs, British Rail, IBM, Hewlett-Packard, Lehman Brothers, Lotus, and <a href="http://www.microsoft.com">Microsoft</a>.</p>
+				<p>Brian joined International Financial Systems as the architect and assumed the role of software development manager.</p>
+				<p>After leaving IFS Brian joined <a http://www.fidelity.com">Fidelity Investments</a> as a Technical Consultant. At Fidelity, Brian
+				was the product manager for Fidelity Online Xpress+ and later lead the largest of the development teams to build the replacement
+				for FOX+ and PowerStreet Pro. Upon the completion of ActiveTrader Pro, Brian took on his first major Java project which re-architected 
+				PlanViewer for Fidelity International. Later Brian was seconded to KVH, in Toko, for 2 years as the Lead System Architect
+				for a major OSS/BSS integration. Upon returning from his assignement in Tokyo, Brian briefly took on the role of .. governing the
+				architecture for AccessCENTRAL and redesigning the provisioning system. Brian's last role at Fidelity was with TerraNua developing
+				a multi-tennant software-as-a-service solution for hedge funds and registered investment advisors.</p>
+				<p>Since leaving Brian has resumed contracting and has worked as the technical architect for MyWeb at Vodafone. A developer at Corvil where
+				he built high-speed decoders for market data and trading protocols in C/C++. A SOA architect at Fujitsu on projects for the Irish Courts Service,
+				and the Department of Transport. A technical architect at D&amp;B Business Information Systems on the data supply chain. Now Brian
+				is working with LeasePlan IS helping them to re-engineer their out-dated Internet Quotations system.</p>
+				    <p><a href="http://www.fiscireland.ie/">Fideliy Investments</a>, <a href="http://www.kvh.co.jp">KVH</a>, <a href="http://www.terranua.com">TerraNua</a>, 
+				    <a href="http://www.vodafone.com/">Vodafone</a>, 
+				    <a href="http://www.corvil.ie/">Corvil</a>, Fujitsu, D&amp;B, and <a href="http://www.leaseplan.ie">LeasePlan</a>. 
+				</p>
+				<p>Brian's current weapons of choice are the Java and Groovy programming languages, Maven for build automation, Jenkins for
+				continuous integration and </p>
+				<p>Brian has started a number of Open Source projects hosted on GitHub to scratch his personal itches, learning exercsies, and showcase his
+				coding style.</p>
 				<h3>Services</h3>
-				<ul>
+				<ul class="services">
 					<li>Consultancy</li>
-					<li>Consultancy</li>
+					<li>Technical Mentoring</li>
 					<li>Bespoke Software Development</li>
 				</ul>
 				<h3>Areas of expertise</h3>
-				<ul>
+				<ul class="expertise">
 					<li>Service Oriented Architecture (SOA)</li>
 					<li>Enterprise Application Integration (EAI)</li>
 					<li>Enterprise Content Management (ECM)</li>
@@ -79,42 +119,56 @@ try { pageTracker._trackPageview(); } catch {}
 					<dd>
 						A test runner for <a href="http://www.junit.org">JUnit 4</a> that
 						simplifies the creation of integration tests using <a
-							href="http://seleniumhq.org">Selenium</a>.<br /> <a
-							href="http://selenium-junit4-runner.btmatthews.com">Home</a>
+							href="http://seleniumhq.org">Selenium</a>.
+						<ul class="links">
+						<li><a href="http://selenium-junit4-runner.btmatthews.com">Home</a></li>
+						<li><a href="http://bmatthews68.github.com/selenium-junit4-runner">GitHub</a></li>
+						</ul>
 					</dd>
 					<dt>LDAP Maven Plugin</dt>
 					<dd>
 						A Maven 3 plug-in that launches an embedded LDAP directory server
-						intended for use in the creation of integration tests.<br /> <a
-							href="http://ldap-maven-plugin.btmatthews.com">Home</a>
+						intended for use in the creation of integration tests.
+						<ul class="links">
+						<li><a href="http://ldap-maven-plugin.btmatthews.com">Home</a></li>
+						<li><a href="http://bmatthews68.github.com/ldap-maven-plugin">GitHub</a></li>
+						</ul>
 					</dd>
 					<dt>In-Memory Database Maven Plugin</dt>
 					<dd>
 						A Maven 3 plugin that launches an embedded database server
-						intended for use in the creation of integration tests.<br /> <a
-							href="http://inmemdb-maven-plugin.btmatthews.com">Home</a> GitHub
+						intended for use in the creation of integration tests.
+						<ul class="links">
+						<li><a href="http://inmemdb-maven-plugin.btmatthews.com">Home</a></li>
+						<li><a href="http://bmatthews68.github.com/inmemdb-maven-plugin">GitHub</a></li>
+						</ul>
 					</dd>
 					<dt>Greenmail Maven Plugin</dt>
 					<dd>
 						A Maven 3 plugin that launches an embedded mail server intended
-						for use in the creation of integration tests.<br /> <a
-							href="http://greenmail-maven-plugin.btmatthews.com">Home</a>
-						GitHub
+						for use in the creation of integration tests. 
+						<ul class="links">
+						<li><a href="http://greenmail-maven-plugin.btmatthews.com">Home</a></li>
+						<li><a href="http://bmatthews68.github.com/greenmail-maven-plugin">GitHub</a></li>
+						</ul>
 					</dd>
 					<dt>MockNS</dt>
 					<dd>
 						A custom namespace for Spring to simplify the definition of mock
 						objects in Spring contexts intended to be used when creating unit
-						tests.<br /> <a href="http://mockns.btmatthews.com">Home</a>
-						GitHub
+						tests. MockNS supports jMock, Mockito and easymock. <br />
+						<ul class="links">
+						<li><a href="http://mockns.btmatthews.com">Home</a></li>
+						<li><a href="http://bmatthews68.github.com/MockNS">GitHub</a></li>
+						</ul>
 					</dd>
 				</dl>
 				<p>I collaborate on the following open source projects:</p>
 				<dl class="projects">
 					<dt>TitanDNS</dt>
 					<dd>
-						An authorative DNS name server written in Java.<br /> <a
-							href="http://titandns.org">Home</a> GitHub
+						An authorative DNS name server written in Java using Netty, Guice and Neo4J.<br /> <a
+							href="http://titandns.org" class="button">Home</a> <a href="http://TitanDNS.github.com/TitanDNS" class="button">GitHub</a>
 					</dd>
 				</dl>
 			</div>

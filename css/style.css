@@ -17,17 +17,20 @@ h3{font-size:16px;margin-top:6px;color:#133aac}
 a{text-decoration:none;color:#ff9000}
 a:hover{text-decoration:underline;color:#ff9000}
 a:visited{text-decoration:none;color:#ff9000}
+a.button{padding:0 5px;background-color:#ff9000;color:#ffffff}
+a.button:hover{color:#fffff}
+a.visited:hover{color:#fffff}
 
 #wrapper{margin:12px auto 24px;width:960px;background:#fff}
 
-#header{padding:6px 10px 6px 170px;background:#ffac40}
-#header h1{color:#a65e00}
-#header h2{color:#bf8130}
+#header{padding:6px 10px 0 160px;background:#ffac40}
+#header h1{padding-left:10px;color:#a65e00}
+#header h2{padding-left:10px;color:#bf8130}
 #content{}
 #left{padding:6px 10px;width:140px;float:left}
 #center{padding:6px 10px;width:540px;margin-left:160px}
 #right{padding:6px 10px;width:220px;float:right}
-#footer{padding:6px 10px;background:#6d87d6;color:#133aac}
+#footer{padding:6px 10px 6px 170px;background:#6d87d6;color:#133aac}
 #footer a{color:#062170}
 
 img.me{margin-top:12px;border:0}
@@ -35,6 +38,16 @@ img.me{margin-top:12px;border:0}
 dl.projects dt{font-weight:bold;color:#00A287}
 dl.projects dd{margin:0 0 6px 20px}
 
+ul.tabs{padding:0;list-style:none;display:inline}
+ul.tabs li{padding:12px 10px 6px 10px;display:inline}
+ul.tabs li a{color:#062170;font-weight:bold;font-size:18px}
+ul.tabs li.selected{background-color:#ffffff}
+
+ul.links{padding:0;list-style:none}
+ul.links li{padding:0;display:inline}
+ul.links li a{}
+ul.services{list-style:square}
+ul.expertise{list-style:square}
 ul.social{list-style:none;padding:0;margin-top:12px}
 ul.social li{padding-left:20px}
 li.linkedin{background:url('../images/linkedin_16.png') no-repeat}
