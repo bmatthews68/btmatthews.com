@@ -1,47 +1,50 @@
 @CHARSET "ISO-8859-1";
 
-body {
-	margin:0; 
-	background: url('../images/paper.jpg') scroll top left repeat;
-	padding:0;
-	border:0;
-	font-size:12px;
-	line-height:18px;
-	font-family:sans-serif;
-	min-width:960px; 
-}
+body{margin:0;background:url('../images/paper.jpg') scroll top left repeat;padding:0;border:0;font-size:12px;line-height:18px;font-family:Verdana,Arial,Helvetica,sans-serif;min-width:960px}
 
 h1{font-size:24px;margin-top:18px;color:#133aac}
 h2{font-size:20px;margin-top:12px;color:#133aac}
-h3{font-size:16px;margin-top:6px;color:#133aac}
+h3,h4{font-size:16px;margin-top:6px;color:#133aac}
+h5{font-size:12px;margin-top:6px;color:#133aac}
 a{text-decoration:none;color:#ff9000}
 a:hover{text-decoration:underline;color:#ff9000}
 a:visited{text-decoration:none;color:#ff9000}
-a.button{padding:0 5px;background-color:#ff9000;color:#ffffff}
-a.button:hover{color:#fffff}
-a.visited:hover{color:#fffff}
+a.button{padding:0 5px;background-color:#ff9000;color:#fff}
+a.button:hover{color:#fff}
+a.visited:hover{color:#fff}
 
-#wrapper{margin:12px auto 24px;width:960px;background:#fff}
+.job h4{margin-bottom:0px}
+.job h5{margin-botton:0px}
+.job h4 span{font-size:12px;font-weight:normal;font-style:italic}
+.job h5 span{font-size:12px;font-weight:normal;font-style:italic}
 
-#header{padding:6px 10px 0 160px;background:#ffac40}
+#wrapper{margin:12px auto 24px;width:960px}
+
+#header{padding:6px 10px 0 160px;background:#ffac40;-moz-border-radius:12px 12px 0 0;border-radius:12px 12px 0 0}
 #header h1{padding-left:10px;color:#a65e00}
 #header h2{padding-left:10px;color:#bf8130}
-#content{}
+#content{background:#fff}
 #left{padding:6px 10px;width:140px;float:left}
 #center{padding:6px 10px;width:540px;margin-left:160px}
 #right{padding:6px 10px;width:220px;float:right}
-#footer{padding:6px 10px 6px 170px;background:#6d87d6;color:#133aac}
+#footer{padding:6px 10px 6px 170px;background:#6d87d6;color:#133aac;-moz-border-radius:0 0 12px 12px;border-radius:0 0 12px 12px}
 #footer a{color:#062170}
 
 img.me{margin-top:12px;border:0}
 
-dl.projects dt{font-weight:bold;color:#00A287}
+table{border:0;padding:0}
+thead{background-color:#a65e00}
+th{color:#fff;font-weight:bold;text-align:left}
+tr.even td{background-color:#ffc273}
+td.company{font-weight:bold}
+
+dl.projects dt{font-weight:bold;color:#00a287}
 dl.projects dd{margin:0 0 6px 20px}
 
 ul.tabs{padding:0;list-style:none;display:inline}
 ul.tabs li{padding:12px 10px 6px 10px;display:inline}
 ul.tabs li a{color:#062170;font-weight:bold;font-size:18px}
-ul.tabs li.selected{background-color:#ffffff}
+ul.tabs li.selected{background-color:#fff;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0}
 
 ul.links{padding:0;list-style:none}
 ul.links li{padding:0;display:inline}
