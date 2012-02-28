@@ -1,73 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="Robots" content="index,follow" />
-<meta name="author"
-	content="Brian Thomas Matthews, brian@btmatthews.com" />
-<meta name="verify-v1"
-	content="cM8208OaXGxOqFk6gatdE4Lq+CpRJs00ekZ0tFVbTSc=" />
-<title>Brian Thomas Matthews | Technical Architect</title>
-<link rel="icon" href="/images/favicon_16.png" type="image/png" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link type="text/css" rel="stylesheet" href="css/style.css" />
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5713196-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
+<?php $tab = 2 ?>
+<?php include('inc/head.php'); ?>
 <body>
 	<div id="wrapper">
-		<div id="header">
-			<h1>Brian Thomas Matthews</h1>
-			<h2>Technical Architect</h2>
-			<ul class="tabs">
-				<li><a href="index.html">Biography</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li class="selected"><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="cv.html">CV</a></li>
-				<li><a href="http://blog.btmatthews.com">Blog</a></li>
-			</ul>
-		</div>
+		<?php include('inc/header.php'); ?>
 		<div id="content">
-			<div id="left">
-				<img src="images/me.jpg" class="me" />
-			</div>
-			<div id="right">
-				<ul class="social">
-					<li class="linkedin"><a
-						href="http://ie.linkedin.com/in/bmatthews68">Connect to me</a> on
-						LinkedIn</li>
-					<li class="twitter"><a href="http://twitter.com/bmatthews68">Follow
-							me</a> on Twitter</li>
-					<li class="rss"><a href="http://blog.btmatthews">Read my
-							blog</a>
-					</li>
-					<li class="gmail"><a href="mailto:brian@btmatthews.com">E-mail
-							me</a>
-					</li>
-					<li class="skype"><a href="skype:bmatthews68?call">Call me</a>
-						on Skype</li>
-				</ul>
-				<ul class="contact">
-					<li>60 Barons Hall Grove,<br />Balbriggan,<br />Co. Dublin,<br />Ireland</li>
-					<li><span class="contact">email:</span> <a
-						href="mailto:brian@btmatthews.com">brian@btmatthews.com</a>
-					</li>
-					<li><span class="contact">ph:</span>
-						+353&nbsp;(87)&nbsp;141&nbsp;8311</li>
-				</ul>
-			</div>
+			<?php include('inc/left.php'); ?>
+			<?php include('inc/right.php'); ?>
 			<div id="center">
 				<h2>Open Source Portfolio</h2>
 				<p>I develop the following open source projects:</p>
@@ -130,10 +70,7 @@
 				</dl>
 			</div>
 		</div>
-		<div id="footer">
-			&copy; 2011 <a href="mailto:brian@btmatthews.com">Brian Thomas
-				Matthews</a>. <br /> All rights reserved.
-		</div>
+		<?php include('inc/footer.php'); ?>
 	</div>
 </body>
 </html>
