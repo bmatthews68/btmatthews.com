@@ -1,11 +1,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="Robots" content="index,follow" />
-<meta name="author"
-	content="Brian Thomas Matthews, brian@btmatthews.com" />
-<meta name="verify-v1"
-	content="cM8208OaXGxOqFk6gatdE4Lq+CpRJs00ekZ0tFVbTSc=" />
-<title>Brian Thomas Matthews | Technical Architect</title>
+<meta name="author" content="Brian Thomas Matthews, brian@btmatthews.com" />
+<meta name="verify-v1" content="cM8208OaXGxOqFk6gatdE4Lq+CpRJs00ekZ0tFVbTSc=" />
+<title>Brian Matthews | Freelance Technical Architect and Developer</title>
 <link rel="icon" href="/images/favicon_16.png" type="image/png" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link type="text/css" rel="stylesheet" href="css/style.css" />

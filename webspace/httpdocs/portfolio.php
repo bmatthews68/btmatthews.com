@@ -6,21 +6,27 @@
 	<div id="wrapper">
 		<?php include('inc/header.php'); ?>
 		<div id="content">
-			<?php include('inc/left.php'); ?>
 			<?php include('inc/right.php'); ?>
-			<div id="center">
+			<div id="left">
 				<h2>Open Source Portfolio</h2>
 				<p>I develop the following open source projects:</p>
 				<dl class="projects">
 					<dt>Selenium JUnit 4 Runner</dt>
 					<dd>
-						A test runner for <a href="http://www.junit.org">JUnit 4</a> that
-						simplifies the creation of integration tests using <a
-							href="http://seleniumhq.org">Selenium</a>.
+						<script type="text/javascript" src="http://www.ohloh.net/p/586053/widgets/project_basic_stats.js"></script>
+						The <a href="http://selenium-junit4-runner.btmatthews.com">Selenium JUnit 4 Runner</a>
+						is a test runner for <a href="http://www.junit.com">JUnit 4</a> that eliminates some of the
+						boiler plate required to create integration tests using <a href="http://seleniumhq.org">Selenium</a>.
 						<ul class="links">
 						<li><a href="http://selenium-junit4-runner.btmatthews.com">Home</a></li>
 						<li><a href="http://bmatthews68.github.com/selenium-junit4-runner">GitHub</a></li>
 						</ul>
+					</dd>
+					<dt>CRX Maven Plugin</dt>
+					<dd>
+					    A Maven plugin that collects the resources for a Google Chrome extension and
+					    packages then into a signed CRX archive.
+					    <img src="https://buildhive.cloudbees.com/job/bmatthews68/job/crx-maven-plugin/badge/icon"/>
 					</dd>
 					<dt>LDAP Maven Plugin</dt>
 					<dd>
@@ -43,7 +49,7 @@
 					<dt>Greenmail Maven Plugin</dt>
 					<dd>
 						A Maven 3 plugin that launches an embedded mail server intended
-						for use in the creation of integration tests. 
+						for use in the creation of integration tests.
 						<ul class="links">
 						<li><a href="http://greenmail-maven-plugin.btmatthews.com">Home</a></li>
 						<li><a href="http://bmatthews68.github.com/greenmail-maven-plugin">GitHub</a></li>

@@ -13,21 +13,22 @@ a.button{padding:0 5px;background-color:#ff9000;color:#fff}
 a.button:hover{color:#fff}
 a.visited:hover{color:#fff}
 
-.job h4{margin-bottom:0px}
-.job h5{margin-botton:0px}
+.job h4{margin-bottom:0}
+.job h5{margin-bottom:0}
+.job p{margin:6px 0}
+.job ul{margin:6px 0}
 .job h4 span{font-size:12px;font-weight:normal;font-style:italic}
 .job h5 span{font-size:12px;font-weight:normal;font-style:italic}
 
 #wrapper{margin:12px auto 24px;width:960px}
 
-#header{padding:6px 10px 0 160px;background:#ffac40;-moz-border-radius:12px 12px 0 0;border-radius:12px 12px 0 0}
+#header{padding:6px 10px 0 0;background:#ffac40;-moz-border-radius:12px 12px 0 0;border-radius:12px 12px 0 0}
 #header h1{padding-left:10px;color:#a65e00}
 #header h2{padding-left:10px;color:#bf8130}
 #content{background:#fff}
-#left{padding:6px 10px;width:140px;float:left}
-#center{padding:6px 10px;width:540px;margin-left:160px}
+#left{padding:6px 10px;width:700px;margin-left:10px}
 #right{padding:6px 10px;width:220px;float:right}
-#footer{padding:6px 10px 6px 170px;background:#6d87d6;color:#133aac;-moz-border-radius:0 0 12px 12px;border-radius:0 0 12px 12px}
+#footer{padding:6px 10px 6px 10px;background:#6d87d6;color:#133aac;-moz-border-radius:0 0 12px 12px;border-radius:0 0 12px 12px}
 #footer a{color:#062170}
 
 img.me{margin-top:12px;border:0}
@@ -35,14 +36,17 @@ img.me{margin-top:12px;border:0}
 table{border:0;padding:0}
 thead{background-color:#a65e00}
 th{color:#fff;font-weight:bold;text-align:left}
-tr.even td{background-color:#ffc273}
+tr.even{background-color:#ffc273}
 td.company{font-weight:bold}
 
 dl.projects dt{font-weight:bold;color:#00a287}
-dl.projects dd{margin:0 0 6px 20px}
+dl.projects dd{margin:0 0 6px 0}
+
+dl.skills dt{font-weight:bold;color:#00a287}
+dl.skills dd{margin:0 0 6px 0}
 
 ul.tabs{padding:0;list-style:none;display:inline}
-ul.tabs li{padding:12px 10px 6px 10px;display:inline}
+ul.tabs li{padding:12px 10px 6px 6px;margin:0 4px;display:inline}
 ul.tabs li a{color:#062170;font-weight:bold;font-size:18px}
 ul.tabs li.selected{background-color:#fff;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0}
 
@@ -60,3 +64,6 @@ li.skype{background:url('../images/skype_16.png') no-repeat}
 li.twitter{background:url('../images/twitter_16.png') no-repeat}
 ul.contact{list-style:none;padding:24px 0 0}
 span.contact{font-style:italic}
+
+table#summary{width:700px;border-collapse:collapse}
+table#summary th,table#summary td{padding:2px}

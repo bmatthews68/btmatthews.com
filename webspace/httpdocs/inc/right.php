@@ -1,4 +1,5 @@
 <div id="right">
+	<img src="images/me.jpg" class="me" alt="Brian Matthews"/>
 	<ul class="social">
 		<li class="linkedin"><a href="http://ie.linkedin.com/in/bmatthews68">Connect to me</a> on LinkedIn</li>
 		<li class="twitter"><a href="http://twitter.com/bmatthews68">Follow me</a> on Twitter</li>

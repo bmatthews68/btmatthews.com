@@ -6,10 +6,9 @@
 	<div id="wrapper">
 		<?php include('inc/header.php'); ?>
 		<div id="content">
-			<?php include('inc/left.php'); ?>
 			<?php include('inc/right.php'); ?>
-			<div id="center">
-<h2>Cum sociis natoque penatibus et.</h2>
+			<div id="left">
+<h2>Bespoke Application Development</h2>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec metus molestie sem blandit 
 pharetra vel eget magna. Nullam commodo risus ac sapien pellentesque luctus. Donec gravida arcu vel 
@@ -20,7 +19,7 @@ netus et malesuada fames ac turpis egestas. Fusce in nisi mi, nec dignissim mi. 
 amet quam euismod tristique sed quis mauris. Sed ut ipsum quam, quis tincidunt mauris. Aenean 
 ultricies consectetur ante sed vehicula.
 </p>
-<h2>Etiam interdum enim in velit.</h2>
+<h2>Solution Architecture</h2>
 <p>
 Suspendisse vitae purus felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
 per inceptos himenaeos. Nullam interdum imperdiet vulputate. Donec ultricies, ante id faucibus eleifend, 
@@ -31,7 +30,7 @@ mauris tempor. Nullam laoreet mauris non eros venenatis auctor. Mauris ut mauris
 ornare viverra. Mauris egestas nulla vel ipsum aliquet eu consequat sem commodo. Vivamus dictum dui 
 et quam interdum laoreet. Pellentesque vitae urna leo, sed tempor velit.
 </p>
-<h2>Curabitur non dui nunc, id.</h2>
+<h2>Architecture Review</h2>
 <p>
 Sed dictum volutpat est. Duis ultricies rhoncus adipiscing. Morbi eu eros a nisl interdum dictum. 
 Praesent non nunc mauris, quis dignissim leo. Nunc lorem dolor, sollicitudin quis feugiat vel, mollis 
@@ -40,7 +39,7 @@ mi. Suspendisse suscipit enim consequat nibh lacinia euismod. Curabitur ac justo
 metus. Phasellus convallis suscipit urna, ut ultrices quam faucibus nec. Fusce a elit urna, et laoreet 
 lacus. Etiam varius ligula eu justo pulvinar pharetra. Nulla porttitor volutpat velit eu semper.
 </p>
-<h2>Duis quis velit ac orci.</h2>
+<h2>Agile Mentoring</h2>
 <p>
 Maecenas pharetra condimentum ante, porta porta dolor tincidunt eu. Nunc ut erat eget dui mattis 
 scelerisque. Aenean ac dolor nec urna rhoncus mattis. Nam volutpat scelerisque condimentum. Nunc 
@@ -51,15 +50,6 @@ Aenean ullamcorper, lorem sit amet tincidunt vulputate, orci risus adipiscing ne
 nunc ipsum tempus ante. Suspendisse ac tincidunt enim. Maecenas nec libero purus, at auctor libero. 
 Curabitur mollis consectetur sodales. Morbi posuere nisi eget diam faucibus sit amet cursus ante 
 fermentum. Suspendisse potenti. Donec sodales venenatis est vel scelerisque.
-</p>
-<h2>In dui urna, sagittis sed.</h2>
-<p>
-Nullam eget est eleifend lectus vehicula vestibulum quis vel felis. Mauris nec justo sit amet est 
-dignissim posuere sit amet in nibh. Nullam eu egestas dui. Nulla sodales orci a velit auctor ut 
-posuere mauris ultricies. Vestibulum vel sem eget quam ullamcorper rhoncus at sit amet dolor. 
-Etiam quis nisl lorem. Nam lobortis ipsum non justo bibendum blandit. Integer pulvinar quam ac 
-augue lacinia laoreet. Sed malesuada justo ut urna convallis ac venenatis tortor facilisis. 
-Pellentesque venenatis volutpat turpis a accumsan.
 </p>
 			</div>
 		</div>
