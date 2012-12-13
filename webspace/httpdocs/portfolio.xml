@@ -1,3 +1,121 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <portfolio>
+	<project>
+		<name>Selenium JUnit 4 Runner</name>
+		<url>http://selenium-junit4-runner.btmatthews.com</url>
+		<description>The Selenium JUnit 4 Runner is a test runner for <a href="http://www.junit.org">JUnit 4</a> that 
+		eliminates some of the boiler plate required to create integration tests using
+		<a href="http://seleniumhq.org/">Selenium</a>.</description>
+		<links>
+			<link>
+				<name>Source Code</name>
+				<url>https://github.com/bmatthews68/selenium-junit4-runner</url>
+			</link>
+			<link>
+				<name>JUnit</name>
+				<url>http://www.junit.org</url>
+			</link>
+			<link>
+				<name>Selenium</name>
+				<url>http://seleniumhq.org</url>
+			</link>
+		</links>
+	</project>
+	<project>
+		<name>CRX Maven Plugin</name>
+		<url>http://crx-maven-plugin.btmatthews.com</url>
+		<description>A Maven plugin that collects the resources for a Google Chrome extension and packages then into 
+			a signed CRX archive.</description>
+		<links>
+			<link>
+				<name>Source Code</name>
+				<url>https://github.com/bmatthews68/crx-maven-plugin</url>
+			</link>
+			<link>
+				<name>Maven</name>
+				<url>http://maven.apache.org</url>
+			</link>
+			<link>
+				<name>Google Crhome Extensions</name>
+				<url>https://developer.chrome.com/extensions/index.html</url>
+			</link>
+		</links>
+	</project>
+	<project>
+		<name>LDAP Maven Plugin</name>
+		<url>http://ldap-maven-plugin.btmatthews.com</url>
+		<description>A Maven plug-in that launches an embedded LDAP directory server intended for use in the creation
+			of integration tests. The plugin uses Apache Directory.</description>
+		<links>
+			<link>
+				<name>Source Code</name>
+				<url>https://github.com/bmatthews68/ldap-maven-plugin</url>
+			</link>
+			<link>
+				<name>Maven</name>
+				<url>http://maven.apache.org</url>
+			</link>
+			<link>
+				<name>Apache Directory</name>
+				<url>http://directory.apache.org/</url>
+			</link>
+		</links>
+	</project>
+	<project>
+		<name>In Memory Database Maven Plugin</name>
+		<url>http://inmemdb-maven-plugin.btmatthews.com</url>
+		<description>A Maven plugin that launches an embedded database server intended for use in the creation
+			of integration tests. The plugin supports HSQLDB, H2 and Apache Derby embedded databases.</description>
+		<links>
+			<link>
+				<name>Source Code</name>
+				<url>https://github.com/bmatthews68/inmemdb-maven-plugin</url>
+			</link>
+			<link>
+				<name>Maven</name>
+				<url>http://maven.apache.org</url>
+			</link>
+			<link>
+				<name>HSQLDB</name>
+				<url>http://hsqldb.org</url>
+			</link>
+			<link>
+				<name>H2</name>
+				<url>http://www.h2database.com</url>
+			</link>
+			<link>
+				<name>Apache Derby</name>
+				<url>http://db.apache.org/derby/</url>
+			</link>
+		</links>
+	</project>
+	<project>
+		<name>e-Mail Server Maven Plugin</name>
+		<url>http://emailserver-maven-plugin.btmatthews.com</url>
+		<description>A Maven 3 plugin that launches an embedded mail server intended for use in the
+			creation of integration tests. The plugn supports Greenmail, Dumbster and SubEtha SMTP
+			fake e-mail servers.</description>
+		<links>
+			<link>
+				<name>Source Code</name>
+				<url>https://github.com/bmatthews68/emailserver-maven-plugin</url>
+			</link>
+			<link>
+				<name>Maven</name>
+				<url>http://maven.apache.org</url>
+			</link>
+			<link>
+				<name>Greenmail</name>
+				<url>http://www.icegreen.com/greenmail/</url>
+			</link>
+			<link>
+				<name>Dumbster</name>
+				<url>http://quintanasoft.com/dumbster/</url>
+			</link>
+			<link>
+				<name>SubEtha SMTP</name>
+				<url>http://code.google.com/p/subethasmtp/</url>
+			</link>
+		</links>
+	</project>
 </portfolio>

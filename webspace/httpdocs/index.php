@@ -10,6 +10,28 @@
 			<div id="left">
 				<h2>About me</h2>
 				<p>
+					
+					I am a technical architect and developer with over twenty years commercial experience specialising in creating solutions in C++ and Java mainly for the telecommunications and financial services industries.
+
+I graduated with honours in from Dublin City University with a B.Sc. in Computer Applications. At university I especially enjoyed studying object-oriented programming (C++ and Smalltalk) and developed a preference for systems programming. During my third year of study I interned at Polydata where I took on live customer projects and continued to work for Polydata.
+
+After leaving Polydata I became a C++ consultant for AT&T Istel, British Rail, IBM, Hewlett-Packard, Lehman Brothers, Lotus, Microsoft and AT&T Labs.
+
+I gave up contracting to join a promising start-up in Dublin called International Financial Systems to design a replacement 
+
+During my eight years with Fidelity Investments I was lucky enough to secure two expatriate assignments. The first was a two year secondment to KVH, a telecommunications
+company owned by Fidelity Investments, in Tokyo where I was responsible for the architecture of KVH's OSS/BSS integration efforts. The second was a six month assignment
+in Tunis where I established an offshore development centre for TerraNua within a HR Access.
+
+Since leaving TerraNua I have been consulting in C++, Java and Objective-C for Vodafone, Corvil, Fujitsu, D&B, LeasePlan and Newbay.
+
+Senior Java consultant with thirteen years commercial experience specialising in web- and service-orientated development and consultancy. Well-versed in Agile/SCRUMM development methodologies and possessing a breadth of technical knowledge and a passion for new technologies. I'm a personable candidate with a creative approach to problem solving, focused on good working practices and code quality.
+
+Well rounded individual with diverse interests in subjects like current affairs, music and theatre. In my spare time I contribute to several open source projects for my personal interest. Founder of the popular Android Connector for M2E (m2e-android) project.
+
+I am researching functional programming and NoSQL databases and I am hoping to use them on a some open source projects I am considering tackling.
+
+
 				I am a freelance technical architect and developer with over 20 years experience mainly developing C++ and 
                 Java tools and applications for in the telecommunications and financial services industries.
 				</p>
