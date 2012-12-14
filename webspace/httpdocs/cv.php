@@ -1,5 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+ <?php function outputSkills($title, $skills) { ?>
+  <dt><?=$title?></dt>
+  <dd>
+  <?php $skills = array_unique($skills);
+  sort($skills, SORT_STRING);
+  $n = count($skills);
+  foreach ($skills as $skill) { ?>
+   <?=$skill?><?php if (--$n > 0) { ?>, <?php }
+  } ?>
+  </dd>
+ <?php } ?>
  <?php $tab = 3 ?>
  <?php include('inc/head.php'); ?>
  <body>
@@ -35,6 +46,13 @@
       <li>Experience managing performance in a structured environment</li>
       <li>Broad range of technical expertise covering both the JEE and .NET stacks</li>
      </ul>
+     <h3>Skills</h3>
+      <dl class="skills">
+       <?php outputSkills('Programming Languages', $xml->xpath('//programmingLanguage')); ?>
+       <?php outputSkills('Frameworks/Libraries', $xml->xpath('//framework')); ?>
+       <?php outputSkills('Target Environments', $xml->xpath('//targetEnvironment/name')); ?>
+       <?php outputSkills('Development Tools', $xml->xpath('//developmentTool')); ?>
+      </dl>
      <h3>Professional Experience</h3>
      <h4>Summary of Roles</h4>
      <table id="summary">
