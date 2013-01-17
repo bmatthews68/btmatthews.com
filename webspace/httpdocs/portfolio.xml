@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <portfolio>
+	<category>
+		<name>JUnit Extensions</name>
+		<description>The projects described below make it easier to create unit and integration tests
+			that use <a href="https://github.com/KentBeck/junit">JUnit</a>.</description>
+		<projects>
 	<project>
 		<name>Selenium JUnit 4 Runner</name>
 		<url>http://selenium-junit4-runner.btmatthews.com</url>
-		<description>The Selenium JUnit 4 Runner is a test runner for <a href="http://www.junit.org">JUnit 4</a> that 
-		eliminates some of the boiler plate required to create integration tests using
-		<a href="http://seleniumhq.org/">Selenium</a>.</description>
+		<description>The <a href="http://selenium-junit4-runner.btmatthews.com">Selenium JUnit 4 Runner</a> is a test 
+		runner for <a href="https://github.com/KentBeck/junit">JUnit 4</a> that:
+		<ul>
+			<li>Reduces some of the boiler-plate required to write integration tests for <a href="http://seleniumhq.org/">Selenium</a>
+			using <a href="https://github.com/KentBeck/junit">JUnit 4</a>.</li>
+			<li>Make it easier to implement re-usable custom method rules.</li>
+			<li>Write integration tests to run against multiple browsers.</li>
+		</ul>
+		</description>
 		<links>
 			<link>
 				<name>Source Code</name>
@@ -13,7 +24,7 @@
 			</link>
 			<link>
 				<name>JUnit</name>
-				<url>http://www.junit.org</url>
+				<url>https://github.com/KentBeck/junit</url>
 			</link>
 			<link>
 				<name>Selenium</name>
@@ -21,6 +32,46 @@
 			</link>
 		</links>
 	</project>
+	<project>
+		<name>LDAPUnit</name>
+		<url>http://ldapunit.btmatthews.com</url>
+		<description>
+		<a href="http://ldapunit.btmatthews.com">LDAPUnit</a> makes it easier to create unit tests for 
+		components that are dependent on an LDAP directory servers:
+		<ul>
+			<li><a href="http://ldapunit.btmatthews.com/apidocs/com/btmatthews/ldapunit/DirectoryServerRule.html">DirectoryServerRule</a> 
+			is used launch an embedded LDAP directory server so that the unit tests do not have to be dependent on an external 
+			LDAP directory server with unpredictable state.</li>
+			<li><a href="http://ldapunit.btmatthews.com/apidocs/com/btmatthews/ldapunit/DirectoryServerRule.html">DirectoryTester</a>
+			is used to connect to an LDAP directory server (embedded or external) and make assertions about or verify
+			the contents of the LDAP directory.</li>
+		</ul>
+		<a href="http://ldapunit.btmatthews.com">LDAPUnit</a> relies on
+		<a href="https://www.unboundid.com/products/ldapsdk/">UnboundID LDAP SDK</a>
+		to run the embedded LDAP directory server and as the API used to connect to LDAP directory servers.
+		<a href="http://ldapunit.btmatthews.com/apidocs/com/btmatthews/ldapunit/DirectoryServerRule.html">DirectoryServerRule</a> is based
+		on the OpenDJRule implemented in the <a href="https://github.com/ehsavoie/embedded-ldap">embedded-ldap</a> project.</description>	
+		<links>
+			<link>
+				<name>Source Code</name>
+				<url>https://github.com/bmatthews68/ldapunit</url>
+			</link>
+			<link>
+				<name>JUnit</name>
+				<url>https://github.com/KentBeck/junit</url>
+			</link>
+			<link>
+				<name>UnboundID LDAP SDK</name>
+				<url>https://www.unboundid.com/products/ldapsdk/</url>
+			</link>
+		</links>
+	</project>
+	</projects>
+	</category>
+	<category>
+		<name>Maven Plugins</name>
+		<description>The projects described below are <a href="http://maven.apache.org">Maven</a> plugins.</description>
+		<projects>
 	<project>
 		<name>CRX Maven Plugin</name>
 		<url>http://crx-maven-plugin.btmatthews.com</url>
@@ -93,8 +144,19 @@
 		<name>e-Mail Server Maven Plugin</name>
 		<url>http://emailserver-maven-plugin.btmatthews.com</url>
 		<description>A Maven 3 plugin that launches an embedded mail server intended for use in the
-			creation of integration tests. The plugn supports Greenmail, Dumbster and SubEtha SMTP
-			fake e-mail servers.</description>
+			execution of integration tests that send and/or receive e-mails. The plugn supports the 
+			following fake e-mail servers:
+<table>
+<thead>
+<tr><th>Server</th><th>SMTP</th><th>POP3</th><th>IMAP</th><th>SSL</th></tr>
+</thead>
+<tbody>
+<tr><td>Greenmail</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>Dumbster</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
+<tr><td>SubEtha SMTP</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
+</tbody>
+</table>
+</description>
 		<links>
 			<link>
 				<name>Source Code</name>
@@ -118,4 +180,6 @@
 			</link>
 		</links>
 	</project>
+	</projects>
+	</category>
 </portfolio>

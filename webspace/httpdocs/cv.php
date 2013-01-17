@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+ <?php include_once("inc/markdown.php"); ?>
  <?php function outputSkills($title, $skills) { ?>
   <dt><?=$title?></dt>
   <dd>
@@ -11,6 +12,30 @@
   } ?>
   </dd>
  <?php } ?>
+ <?php function outputDuration($start, $end) {
+  $enda = date_parse($end);
+  $starta = date_parse($start);
+  $months = ($enda['year'] - $starta['year']) * 12 + $enda['month'] - $starta['month'] + 1;
+  $duration = '';
+  if ($months >= 12) {
+  	if ($months < 24) {
+  		$duration = $duration . '1 year';
+	} else {
+		$duration = $duration . (int)($months / 12) . ' years';
+	}
+  }
+  if ($months % 12 > 0) {
+  	if ($months > 12) {
+  		$duration = $duration . ' ';
+  	}
+  	if ($months % 12 == 1) {
+  		$duration = $duration . '1 month';
+  	} else {
+  		$duration = $duration . (int)($months % 12) . ' months';
+  	}
+  }
+  return $duration;  
+ }?>
  <?php $tab = 3 ?>
  <?php include('inc/head.php'); ?>
  <body>
@@ -68,7 +93,7 @@
        <?php
         $odd = TRUE;
         foreach ($xml->xpath("//job") as $job) {
-         if ($odd) { ?>
+          if ($odd) { ?>
           <tr>
           <?php
            $odd = FALSE;
@@ -80,7 +105,7 @@
          <td><?=$job->company->name?></td>
          <td><?=$job->role->from?></td>
          <td><?=$job->role->to?></td>
-         <td><?=$job->role->name?></td>
+         <td><?=$job->role->name?> (<?=outputDuration($job->role->from, $job->role->to)?>)</td>
         </tr>
        <?php } ?>
       </tbody>
@@ -89,7 +114,7 @@
       <div class="job">
        <h4 class="company"><?php if ($job->company->url) { ?><a href="<?=$job->company->url?>"><?php } ?><?= $job->company->name?><?php if ($job->company->url) {?></a><?php } ?>, <span class="location"><?=$job->company->location?></span></h4>
        <h5 class="title"><?=$job->role->name?>, <span class="duration"><?=$job->role->from?> - <?=$job->role->to?></span></h5>
-       <?php if ($job->description) { ?><p><?=$job->description?></p><?php } ?>
+       <?php if ($job->description) { ?><p><?=Markdown($job->description->asXML())?></p><?php } ?>
        <?php if ($job->achievements) { ?>
         <h5>Contributions and Achievements</h5>
         <ul>

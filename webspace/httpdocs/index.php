@@ -3,77 +3,38 @@
 <?php $tab = 0 ?>
 <?php include('inc/head.php'); ?>
 <body>
-	<div id="wrapper">
-		<?php include('inc/header.php'); ?>
-		<div id="content">
-			<?php include('inc/right.php'); ?>
-			<div id="left">
-				<h2>About me</h2>
-				<p>
-					
-					I am a technical architect and developer with over twenty years commercial experience specialising in creating solutions in C++ and Java mainly for the telecommunications and financial services industries.
-
-I graduated with honours in from Dublin City University with a B.Sc. in Computer Applications. At university I especially enjoyed studying object-oriented programming (C++ and Smalltalk) and developed a preference for systems programming. During my third year of study I interned at Polydata where I took on live customer projects and continued to work for Polydata.
-
-After leaving Polydata I became a C++ consultant for AT&T Istel, British Rail, IBM, Hewlett-Packard, Lehman Brothers, Lotus, Microsoft and AT&T Labs.
-
-I gave up contracting to join a promising start-up in Dublin called International Financial Systems to design a replacement 
-
-During my eight years with Fidelity Investments I was lucky enough to secure two expatriate assignments. The first was a two year secondment to KVH, a telecommunications
-company owned by Fidelity Investments, in Tokyo where I was responsible for the architecture of KVH's OSS/BSS integration efforts. The second was a six month assignment
-in Tunis where I established an offshore development centre for TerraNua within a HR Access.
-
-Since leaving TerraNua I have been consulting in C++, Java and Objective-C for Vodafone, Corvil, Fujitsu, D&B, LeasePlan and Newbay.
-
-Senior Java consultant with thirteen years commercial experience specialising in web- and service-orientated development and consultancy. Well-versed in Agile/SCRUMM development methodologies and possessing a breadth of technical knowledge and a passion for new technologies. I'm a personable candidate with a creative approach to problem solving, focused on good working practices and code quality.
-
-Well rounded individual with diverse interests in subjects like current affairs, music and theatre. In my spare time I contribute to several open source projects for my personal interest. Founder of the popular Android Connector for M2E (m2e-android) project.
-
-I am researching functional programming and NoSQL databases and I am hoping to use them on a some open source projects I am considering tackling.
-
-
-				I am a freelance technical architect and developer with over 20 years experience mainly developing C++ and 
-                Java tools and applications for in the telecommunications and financial services industries.
-				</p>
-				<p>
-				Nullam vulputate accumsan risus sed ornare. Praesent eu odio libero, nec vehicula neque. Nam blandit dui non nisi
-				volutpat sed tristique lacus venenatis. Aenean eu tortor nec odio rutrum vehicula non at tortor. Cras non nunc et mi
-				suscipit consequat vitae sit amet lectus. Integer tincidunt ipsum in nisl ultrices tempor ut et neque. Proin elit arcu,
-				aliquam id tempus ut, accumsan volutpat elit. Vestibulum dolor est, interdum ac porttitor ut, imperdiet vel lacus.
-				</p>
-				<p>
-				Suspendisse dictum dictum ipsum, scelerisque tristique nisl ornare nec. In in justo mauris. Vestibulum commodo
-				libero ac velit elementum sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-				egestas. Nam magna leo, ullamcorper sit amet auctor nec, lobortis vel erat. Fusce ultrices feugiat metus quis ornare.
-				Aenean felis diam, rutrum vel pellentesque gravida, ultricies in leo. Vivamus eu tortor sed eros sodales mollis. Proin
-				fringilla nisl ac eros tempus ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-				himenaeos. Nunc in erat metus. Maecenas volutpat tellus in justo suscipit sed volutpat sem luctus. Nam feugiat libero leo.
-				Suspendisse ac ipsum arcu, eu consequat tortor.
-				</p>
-				<p>
-				Nulla pellentesque pretium odio a fringilla. Integer dignissim dignissim turpis id tempus. Vestibulum ante ipsum primis
-				in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc quis felis eu libero lacinia iaculis ac ut nunc. Maecenas
-				vulputate, leo quis dictum aliquam, ipsum nisi ultrices ipsum, quis mollis est tellus sodales velit. Aenean facilisis viverra
-				ultricies. Pellentesque molestie, ante id convallis sodales, diam turpis congue felis, vitae vestibulum nisi augue a justo.
-				Duis ut mauris metus. Etiam scelerisque nunc a erat vulputate id feugiat elit ornare. Aenean sed quam arcu, non rhoncus justo.
-				</p>
-				<p>
-				Praesent a risus metus. Proin sit amet libero id lacus congue mollis et vel ipsum. Nullam turpis nisl, accumsan nec auctor
-				quis, mollis et felis. Donec facilisis elementum iaculis. Praesent consequat pulvinar sem et blandit. Pellentesque sed nunc
-				varius eros lacinia commodo. Vivamus et odio nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-				posuere cubilia Curae; Morbi mauris mi, semper eu elementum ut, aliquet et ante. Quisque blandit auctor tellus vel
-				bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed odio ut felis dictum varius vitae a libero.
-				Quisque rutrum augue sit amet ipsum viverra egestas. Curabitur ac leo libero, vitae malesuada nulla. Sed non hendrerit mi.
-				</p>
-				<p>
-				Phasellus turpis est, accumsan sit amet adipiscing sed, blandit vitae nulla. Nam eget mi justo. In ac purus felis, a auctor
-				erat. Nulla facilisi. Fusce varius, enim at auctor suscipit, purus felis condimentum dui, laoreet porttitor mauris lectus
-				tincidunt eros. Sed lacinia blandit ipsum id aliquam. Phasellus egestas elit lacinia magna commodo quis convallis risus
-				vestibulum. Duis ac lacus ac massa pharetra eleifend. Curabitur sit amet dui sem, scelerisque condimentum neque.
-				</p>
-			</div>
-		</div>
-		<?php include('inc/footer.php'); ?>
-	</div>
+  <div id="wrapper">
+    <?php include('inc/header.php'); ?>
+    <div id="content">
+      <?php include('inc/right.php'); ?>
+      <div id="left">
+      	<p>I am a freelance Technical Architect and Developer with over 20 years experience designing and developing
+      	  solutions on the Java, .NET, Windows and Unix technology stacks in the Java and C/C++ programming languages
+      	  using proprietary and open source technologies.</p>
+      	<p>
+      		<a href="http://www.newbay.com">Newbay</a>, 
+      		<a href="http://www.leaseplanis.com">LeasePlan Information Services</a>, 
+      		<a href="http://www.dnb.com">D&amp;B Business Information Services</a>, 
+      		<a href="http://www.fujitsu.com/ie/services/">Fujitsu Services</a>, 
+      		<a href="http://www.corvil.net">Corvil</a>, 
+      		<a href="http://www.vodafone.com">Vodafone</a>, 
+      		<a href="http://www.terranua.com">TerraNua</a>,
+			<a href="http://www.fidelity.com">Fidelity Investements</a>, 
+			<a href="http://www.kvh.co.jp/en">KVH</a>, 
+			International Financial Systems,
+      		<a href="http://www.att.com">AT&amp;T</a>, 
+      		<a href="http://www.ibm.com">IBM</a>, 
+      		<a href="http://www.microsfot.com">Microsoft</a>, 
+      		Lotus Development, 
+      		Lehman Brothers, 
+      		<a href="http://www.hp.com">Hewlett-Packard</a>, 
+      		British Rail and 
+      		Polydata.</p>
+        <p>I graduated with <a href="http://www.dcu.ie/prospective/deginfo.php?classname=CA">B.Sc. in Computer Applications</a>
+          from <a href="http://dcu.ie">Dublin City University</a> in 1990.</p>
+      </div>
+    </div>
+    <?php include('inc/footer.php'); ?>
+  </div>
 </body>
 </html>

@@ -1,3 +1,4 @@
+<?php date_default_timezone_set('Europe/Dublin') ?>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="Robots" content="index,follow" />

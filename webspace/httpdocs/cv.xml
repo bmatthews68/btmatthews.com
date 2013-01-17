@@ -8,8 +8,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Jan 12</from>
-			<to>Oct 12</to>
+			<from>Jan 2012</from>
+			<to>Oct 2012</to>
 		</role>
 		<description>
 			At <a href="http://www.newbay.com">Newbay</a> I was a member of an Agile team that is developed 
@@ -28,7 +28,8 @@
 				<programmingLanguage>Objective-C</programmingLanguage>
 			</programmingLanguages>
 			<frameworks>
-				<framework>Coca</framework>
+				<framework>Cocoa</framework>
+				<framework>Growl</framework>
 				<framework>OSXFUSE</framework>
 				<framework>OCMock</framework>
 			</frameworks>
@@ -44,7 +45,10 @@
 			<developmentTools>
 				<developmentTool>XCode 4</developmentTool>
 				<developmentTool>Perforce</developmentTool>
+				<developmentTool>Bamboo</developmentTool>
 				<developmentTool>JIRA</developmentTool>
+				<developmentTool>Confluence</developmentTool>
+				<developmentTool>Nexus</developmentTool>
 			</developmentTools>
 		</skills>
 	</job>
@@ -56,8 +60,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Jul 11</from>
-			<to>Jan 12</to>
+			<from>Jul 2011</from>
+			<to>Jan 2012</to>
 		</role>
 		<description>
 			At <a href="http://www.leaseplan.com">LeasePlan</a> I was a member of an Agile team that was re-engineering 
@@ -99,6 +103,7 @@
 				<developmentTool>Maven</developmentTool>
 				<developmentTool>Subversion</developmentTool>
 				<developmentTool>JIRA</developmentTool>
+				<developmentTool>Confluence</developmentTool>
 				<developmentTool>Artifactory</developmentTool>
 				<developmentTool>Selenium</developmentTool>
 			</developmentTools>
@@ -112,8 +117,8 @@
 		</company>
 		<role>
 			<name>Contractor / Technical Architect</name>
-			<from>May 11</from>
-			<to>Jul 11</to>
+			<from>May 2011</from>
+			<to>Jul 2011</to>
 		</role>
 		<description>I was taken on by D&amp;B to be an architect on user interface and input handlers their new 
 			Data Supply Chain. The Data Supply Chain is responsible for processing all inbound data used by D&amp;B to 
@@ -127,8 +132,8 @@
 		</company>
 		<role>
 			<name>Contractor / SOA Architect</name>
-			<from>Jun 10</from>
-			<to>Apr 11</to>
+			<from>Jun 2010</from>
+			<to>Apr 2011</to>
 		</role>
 		<description>
 			At Fujitsu I designed and implemented solutions for the Irish Department of Transport 
@@ -210,8 +215,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Oct 09</from>
-			<to>Jun 10</to>
+			<from>Oct 2009</from>
+			<to>Jun 2010</to>
 		</role>
 		<description>
 			At <a href="http://www.corvil.com">Corvil</a> I developed decoders to handle market data feeds, 
@@ -259,8 +264,8 @@
 		</company>
 		<role>
 			<name>Contractor / Technical Architect</name>
-			<from>Feb 09</from>
-			<to>Sep 09</to>
+			<from>Feb 2009</from>
+			<to>Sep 2009</to>
 		</role>
 		<description>
 			I was the technical architect for <a href="http://myweb.vodafone.com">My Web</a>, Vodafone's new mobile portal 
@@ -277,11 +282,13 @@
 			<programmingLanguages>
 				<programmingLanguage>Java</programmingLanguage>
 				<programmingLanguage>PHP</programmingLanguage>
+				<programmingLanguage>Shell Scripting</programmingLanguage>
 			</programmingLanguages>
 			<frameworks>
 				<framework>Spring</framework>
 				<framework>Spring LDAP</framework>
 				<framework>Struts</framework>
+				<framework>Jackrabbit</framework>
 				<framework>Hibernate</framework>
 				<framework>EhCache</framework>
 				<framework>JGroups</framework>
@@ -326,8 +333,8 @@
 		</company>
 		<role>
 			<name>Director / Architect</name>
-			<from>Aug 06</from>
-			<to>Jul 08</to>
+			<from>Aug 2006</from>
+			<to>Jul 2008</to>
 		</role>
 		<description>
 			At <a href="http://www.terranua.com">TerraNua</a> I was mainly responsible for 
@@ -414,8 +421,8 @@
 		</company>
 		<role>
 			<name>Information Security Consultant / Architect</name>
-			<from>Oct 05</from>
-			<to>Jul 06</to>
+			<from>Oct 2005</from>
+			<to>Jul 2006</to>
 		</role>
 		<description>As an Information Security Consultant at <a href="http://www.fidelity.com">Fidelity Investments</a> I 
 		was the architect supporting the teams responsible for developing and maintaining Fidelity Investments' enterprise-wide 
@@ -474,8 +481,8 @@
 		</company>
 		<role>
 			<name>Lead System Architect</name>
-			<from>Oct 03</from>
-			<to>Sept 05</to>
+			<from>Oct 2003</from>
+			<to>Sep 2005</to>
 		</role>
 		<description>I was seconded to a private telecommunications company owned by Fidelity Investments 
 			called KVH. At KVH I reported to the CIO but also worked closely with the CTO and CFO architecting 
@@ -492,7 +499,7 @@
 				<programmingLanguage>Java</programmingLanguage>
 			</programmingLanguages>
 			<frameworks>
-				<framework>Jakarta Struts</framework>
+				<framework>Struts</framework>
 				<framework>Apache FOP</framework>
 				<framework>Hibernate</framework>
 				<framework>Velocity</framework>
@@ -539,8 +546,8 @@
 		</company>
 		<role>
 			<name>Principal Consultant / Architect</name>
-			<from>Jun 00</from>
-			<to>Sep 03</to>
+			<from>Jun 2000</from>
+			<to>Sep 2003</to>
 		</role>
 		<description>At Fidelity Investments I played a leading role in three major product developments: 
 			<ul>
@@ -567,7 +574,7 @@
 				<programmingLanguage>C++</programmingLanguage>
 			</programmingLanguages>
 			<frameworks>
-				<framework>Jakarta Struts</framework> 
+				<framework>Struts</framework> 
 				<framework>STL</framework> 
 				<framework>MFC</framework> 
 				<framework>RougeWave Libraries</framework> 
@@ -612,8 +619,8 @@
 		</company>
 		<role>
 			<name>Software Development Manager</name>
-			<from>Aug 99</from>
-			<to>May 00</to>
+			<from>Aug 1999</from>
+			<to>May 2000</to>
 		</role>
 		<description>I joined IFS as the Senior Software Architect to design the architecture new margin trading 
 			system that would replace the company's existing thick client product offering called MarginMan. 
@@ -652,8 +659,8 @@
 		</company>
 		<role>
 			<name>Contractor / Technical Lead</name>
-			<from>Oct 98</from>
-			<to>Jul 99</to>
+			<from>Oct 1998</from>
+			<to>Jul 1999</to>
 		</role>
 		<description>At AT&amp;T Labs I worked for the IP Technology Organization, which was developing a platform 
 			to construct and manage IP called Common Open IP Platform (COIPP). I provided CORBA expertise to the team 
@@ -696,8 +703,8 @@
 		</company>
 		<role>
 			<name>Contractor / Project Lead</name>
-			<from>Oct 97</from>
-			<to>Sep 98</to>
+			<from>Oct 1997</from>
+			<to>Sep 1998</to>
 		</role>
 		<description>At IBM I worked with the Insurance Solutions Development Centre developing a 
 			customer relationship management application for insurance companies called Client Information 
@@ -737,8 +744,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Apr 96</from>
-			<to>Sep 97</to>
+			<from>Apr 1996</from>
+			<to>Sep 1997</to>
 		</role>
 		<description>At Microsoft I worked for the Infrastructure and Automation Tools team. I was
 			responsible for developing agents to be installed on file, database, e-mail, web and proxy
@@ -777,8 +784,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Sep 95</from>
-			<to>Mar 96</to>
+			<from>Sep 1995</from>
+			<to>Mar 1996</to>
 		</role>
 		<description>At Lotus I worked for the Global QA team that developed test, automation and
 			localization tools used to test and localize Lotus' office application suite.</description>
@@ -813,8 +820,8 @@
 		</company>
 		<role>
 			<name>Contractor / Project Lead</name>
-			<from>Aug 94</from>
-			<to>Aug 95</to>
+			<from>Aug 1994</from>
+			<to>Aug 1995</to>
 		</role>
 		<description>At Lehman Brothers we developed and maintained applications to support the purchasing, goods inwards
 			and accounting departments of Lehman Brothers in London.</description>
@@ -861,8 +868,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Apr 94</from>
-			<to>Jul 94</to>
+			<from>Apr 1994</from>
+			<to>Jul 1994</to>
 		</role>
 		<description>At Hewlett-Packard I was part of a small team that ported a product called Omnishare
 			from specialized hardware to run on an IBM compatible PC. Omnishare was a conferencing tool that 
@@ -895,8 +902,8 @@
 		</company>
 		<role>
 			<name>Contractor / Technical Lead</name>
-			<from>Oct 93</from>
-			<to>Mar 94</to>
+			<from>Oct 1993</from>
+			<to>Mar 1994</to>
 		</role>
 		<description>At IBM I provided consultancy to the team developing a data warehousing tool called 
 			DataRefresher. When I joined the DataRefresher was failing to meet the acceptance criteria set 
@@ -932,8 +939,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Mar 93</from>
-			<to>Sep 93</to>
+			<from>Mar 1993</from>
+			<to>Sep 1993</to>
 		</role>
 		<description>At British Rail I was part of the team developing a client server application called Advanced Transmanche 
 			Operations Management System (ATOMS). ATOMS was the passenger booking system and rolling stock management developed
@@ -972,8 +979,8 @@
 		</company>
 		<role>
 			<name>Contractor / Software Engineer</name>
-			<from>Sep 92</from>
-			<to>Jan 93</to>
+			<from>Sep 1992</from>
+			<to>Jan 1993</to>
 		</role>
 		<description>At AT&amp;T Istel we implemented a light-weight object request broker for Windows that 
 			allowed inter-process communication on a personal computer and with a server process running on 
@@ -1016,8 +1023,8 @@
 		</company>
 		<role>
 			<name>Senior Software Engineer</name>
-			<from>Apr 89</from>
-			<to>Aug 92</to>
+			<from>Apr 1989</from>
+			<to>Aug 1992</to>
 		</role>
 		<description>At Polydata I designed and developed bespoke applications for petro-chemical companies including
 			DOW Chemical , DuPont , ICI , Bayer and Elf Atochem. These applications were electronic catalogues describing
