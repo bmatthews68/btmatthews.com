@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <cv>
+	<job>
+		<company>
+			<name>Fujitsu Services</name>
+			<location>Dublin, Ireland</location>
+		</company>
+		<role>
+			<name>Contractor / Software Engineer</name>
+			<from>Jan 2013</from>
+			<to>Feb 2013</to>
+		</role>
+		<description>
+			I was contracted by <a href="#">Fujitsu Services</a> to help finalize a online application and back office processing
+			solution for Road Transport Operator Licencing of the Irish Department of Transport.
+		</description>
+		<skills>
+			<programmingLanguages>
+				<programmingLanguage>Java</programmingLanguage>
+			</programmingLanguages>
+			<frameworks>
+				<framework>Spring</framework>
+				<framework>Spring Security</framework>
+				<framework>Spring Webflow</framework>
+				<framework>Hibernate</framework>
+				<framework>OpenCMIS</framework>
+			</frameworks>
+			<developmentTools>
+				<developmentTool>IntelliJ</developmentTool>
+				<developmentTool>Maven</developmentTool>
+				<developmentTool>JIRA</developmentTool>
+				<developmentTool>Confluence</developmentTool>
+				<developmentTool>Bamboo</developmentTool>
+				<developmentTool>Subversion</developmentTool>
+			</developmentTools>
+			<targetEnvironments>
+				<targetEnvironment>
+					<name>Windows</name>
+				</targetEnvironment>
+				<targetEnvironment>
+					<name>JBoss</name>
+					<versions>
+						<version>7.1</version>
+					</versions>
+				</targetEnvironment>
+				<targetEnvironment>
+					<name>Ingres</name>
+				</targetEnvironment>
+				<targetEnvironment>
+					<name>Alfresco</name>
+				</targetEnvironment>
+			</targetEnvironments>
+		</skills>	
+	</job>
 	<job>
 		<company>
 			<name>Newbay Software</name>
