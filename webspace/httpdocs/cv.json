@@ -1,0 +1,394 @@
+{"jobs":[{
+	"employer":{"name":"Realex Payments","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":2013,"month":2},
+		"end":{"year":2013,"month":8},
+		"description":"At [Realex Payments](http://www.realexpayments.com) I was a member of the Agile team that is developing Hosted Payments Page and the Fraud Management component of Real Control. Hosted Payments Page provides a white-labelled  check-out facility for online merchants. Real Control is the tool used by merchants to configure their Realex services, access reports and review transaction history.",
+		"achievments":[
+			"Implemented a content management solution using Apache Jackrabbit and Thymeleaf for the templates used to customise the look and feel of Hosted Payments Page for each merchant.",
+			"Implemented the integration between Hosted Payments Page and the back-ends for alternative payment (e.g. PayPal) methods and foreign exchange services using Spring Integration.",
+			"Completed the Fraud Management component of Real Control two and made it localizable."
+		],
+		"programmingLanguages":["Java","JavaScript"],
+		"frameworks":["Spring","Spring Security","Spring Integration","Thymeleaf","myBatis SQLMaps","Apache Jackrabbit","jQuery","Handlebars"],
+		"targetEnvironment":["SpringSource tcServer","Redhat Enterprise Linux","Microsoft SQL Server"],
+		"developmentTools":["SpringSource Tool Suite","JIRA","Confluence","Jenkins","Nexus","Maven"]
+	}]
+}, {	
+	"employer":{"name":"Fujitsu","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":2013,"month":1},
+		"end":{"year":2013,"month":2},
+		"description":"I was hired by Fujitsu for 4 weeks to complete the document generation and management component of a solution for the Irish Department of Transport that managed licensing for road haulage operators.",
+		"programmingLanguages":["Java"],
+		"frameworks":["Spring","JSF","OpenCMIS","Apache FOP"],
+		"targetEnvironment":["Alfresco"],
+		"developmentTools":["Eclipse","Subversion","Nexus","Maven"]
+	}]
+}, {
+	"employer":{"name":"Newbay","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":2012,"month":1},
+		"end":{"year":2012,"month":10},
+		"description":"At [Newbay](http://www.newbay.com) I was a member of an Agile team that developed and maintained SyncDrive. SyncDrive is a white label product offered to mobile phone operators to allow users synchronize content between their PCs, mobile devices and cloud based storage.",
+		"achievements":[
+			"Resolved high priority defects in order to complete the first version of SyncDrive for Mac OS X and deliver on time to the operator.",
+			"Extensively re-factored the code-base to separate presentation, business logic and data concerns. This was done primarily to eliminate inherent race conditions in the synchronization process. But I had the secondary goal of making it possible to write unit tests."
+		],
+		"programmingLanguages":["Objective-C"],
+		"frameworks":["CoreData","Cocoa","OSXFUSE","OCMock","Growl"],
+		"targetEnvironment":["Mac OS X 10.6+"],
+		"developmentTootls":["XCode 4","Perforce","JIRA","Confluence","Bamboo","Nexus","Maven"]
+	}]
+}, {
+	"employer":{"name":"LeasePlan","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":2011,"month":7},
+		"end":{"year":2012,"month":1},
+		"description":"At [LeasePlan](http://www.leaseplan.com) I was a member of an Agile team that re-engineered LeasePlan's Internet Quotation web application to improve the user experience and address security concerns raised by external auditors.", 
+		"achievements":[
+			"Introduced Selenium integration tests into the automated Maven build",
+			"Introduced JIRA and GreenHopper for bug tracking and task management",
+			"Migrated code base from Spring 2 to Spring 3",
+			"Implemented support for dynamic look and feel using Apache Jackrabbit as the content repository to allow individual business units and brokers have distinct look and feels",
+			"Addressed performance issues when proxying remote content (car images) provided by 3rd party systems by introducing caching and image scaling"
+		],
+		"programmingLanguages":["Java","JavaScript"],
+		"frameworks":["Spring","Spring Security","Struts 2","iBatis SQLMaps","Apache Jackrabbit"],
+		"targetEnvironment":["iSeries","WebSphere","WebSphere MQ"],
+		"developmentTools":["Maven","Subversion","JIRA","Greenhopper","Artifactory","Selenium","Eclipse"]
+	}]
+}, {
+	"employer":{"name":"D&B","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Technical Architect", 
+		"start":{"year":2011,"month":5},
+		"end":{"year":2011,"month":7},
+		"description":"I was taken on by D&B to be an architect on user interface and input handler components of their new Data Supply Chain infrastructure. The Data Supply Chain infrastructure is responsible for processing all inbound data used by D&B to accumulate business intelligence, derive linkage information and calculate credit scores. The project has not progressed past the requirements gathering phase when I left."
+	}]
+}, {
+	"employer":{"name":"Fujitsu","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - SOA Architect",
+		"start":{"year":2010,"month":6},
+		"end":{"year":2011,"month":4},
+		"description":"At Fujitsu I designed and implemented solutions for the Irish Department of Transport and the Irish Courts Service using the principles of Service Oriented Architecture.",
+		"achievements":[
+			"Designed the integration for the Department of Transport with its equivalents in other EU jurisdictions to share driver, vehicle and owner information using Oracle SOA Suite 10g.",
+			"Implemented web services using Oracle SOA Suite 10g to allow the Road Safety Authority and Taxi Regulator access the driver and vehicle database maintained by the Department of Transport.",
+			"Implemented a web service and front end to allow vehicle owners recover the PIN they need to pay motor tax online.",
+			"Proposed the development toolset and open source technology stack for the Irish Courts Service.",
+			"Designed and led the implementation a proof of concept for the Irish Courts Service to allow plaintiffs seek judgements for liquidated sums online using JBoss, Spring, Spring Web Services, Hibernate and JBoss ESB",
+			"Upgraded the integration of Murex trading and SWIFT settlement systems at KBC Bank"
+		],
+		"programmingLanguages":["Java","Shell Scripting","BPEL","JavaScript"],
+		"frameworks":["Spring","Spring Security","Spring Webflow","Spring Web Services","Hibernate","EHCache","jBPM","Drools"],
+		"targetEnvironment":["Solaris","WebSphere MQ","OC4J","JBoss","Oracle SOA Suite","JBossESB","Apache","OpenLDAP","Active Directory","MySQL","Ingres","Oracle"],
+		"developmentTools":["Maven","ANT","Fisheye","Bamboo","Crucible","Proximity","Grinder","JMeter","Benerator","Eclipse"]
+	}]
+}, {
+	"employer":{"name":"Corvil","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":2009,"month":10},
+		"end":{"year":2010,"month":6},
+		"description":"I developed decoders for [Corvil](http://www.corvil.com) to handle market data feed, trading and middle-ware protocols in order to perform gap detection and message correlation within their latency analysis tools.",
+		"achievements":[
+			"Implemented a generic template driven decoder that exceeded the performance targets",
+			"Implemented decoders to handle protocols for the Deutsche B\u00f6rse, London, NASDAQ, NYSE, Tokyo and Osaka exchanges",
+			"Implemented a decoder for Tibco Rendezvous by reverse engineering the sample traffic"
+		],
+		"programmingLanguages":["C++","PERL","Python"],
+		"frameworks":["Boost","STL","Expat","Xerces"],
+		"targetEnvironment":["BSD"],
+		"developmentTools":["g++","Subversion","JIRA","Fisheye","Bamboo","Crucible","Valgrind"]
+	}]
+}, {
+	"employer":{"name":"Vodafone","city":"London","country":"UK"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Technical Architect",
+		"start":{"year":2009,"month":2},
+		"end":{"year":2009,"month":9},
+		"description":"I was the technical architect for [My Web](http://myweb.vodafone.com), Vodafone's new mobile portal that evolved into Vodafone 360. It was originally launched for Egypt, Germany, Greece, Ireland, Italy, Netherlands, Portugal, Spain, South Africa, Turkey and UK in 2009.",
+		"achievements":[
+			"Re-designed the software architecture to ensure the system would meet non-functional performance and stability requirements to support an initial active user base  of 7.5m with a peak load of 1,600 page views per second",
+			"Migrated the build and improved the automation from ANT to Maven 2"
+		],
+		"programmingLanguages":["Java","PHP","Javascript"],
+		"frameworks":["Spring","Spring LDAP","Struts","Hibernate","EHCache","JGroups","Apache Commons","OSGi","Ext/JS"],
+		"targetEnvironment":["JBoss AS","Apache Felix","Apache HTTPD Server","Oracle 10g","Solaris"],
+		"developmentTools":["Maven","Hudson","Archiva","Eclipse","Subversion","Grinder","JProbe","Mercury Quality Centre"]
+	}]
+}, {
+	"employer":{"name":"TerraNua","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Permanent",
+		"title":"Director / Architect",
+		"start":{"year":2006,"month":8},
+		"end":{"year":2008,"month":7},
+		"description":"At [TerraNua](http://www.terranua.com) I was mainly responsible for designing the architecture and overseeing the implementation of [MyComplianceOffice](http://www.mycomplianceoffice.com/). MyComplianceOffice is a **Software as a Service** (SaaS) hosted/multi-tenant solution that allows US-based registered investment advisors and hedge funds manage their compliance related business processes. MyComplianceOffice was built using portal server, workflow and document management technologies.",
+		"achievements":[
+			"Designed the physical and software architecture for MyComplianceOffice",
+			"Recruited and led the development team for release 1.0",
+			"Led the architecture team",
+			"Established the engineering practices",
+			"Introduced SCRUM to manage the development phase of the project",
+			"Recruited and mentored an offshore development team in Tunisia",
+			"Introduced a Wiki to manage developer documentation",
+			"Introduced continuous integration (using Continuum)"
+		],
+		"programmingLanguages":["Java","Javascript"],
+		"frameworks":["Spring","Acegi","Spring Web Services","Apache Axis","Spring LDAP","Hibernate","Compass","Lucene","Quartz","Drools","JUG","CGLIB","EhCache","Shark"],
+		"targetEnvironment":["Jetspeed 2","IBM WebSphere","Netscape iPlanet","SunONE Directory Server","Documentum","Oracle 10g","Solaris"],
+		"developmentTools":["Maven","Continuum","Archiva","Eclipse","Clearcase","Apache HTTP Server","Apache Tomcat","Oracle XE","Windows","Sharepoint","JIRA","LoadRunner","QuickTest Pro","MediaWiki"]
+	}]
+}, {
+	"employer":{"name":"Fidelity Investments","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Permanent",
+		"title":"Information Security Consultant / Architect",
+		"start":{"year":2005,"month":10},
+		"end":{"year":2006,"month":7},
+		"description":"As an Information Security Consultant at [Fidelity Investments](http://www.fidelity.com) I was the architect supporting the teams responsible for developing and maintaining Fidelity Investments' enterprise-wide automated access provisioning, risk management and reporting system. The core components were an intranet facing application for raising and processing access requests and workflow engine that integrated the various 3rd party solutions and automate the provisioning processes. The intranet facing application was developed using ASP.NET and the workflow engine was implemented using C# and NxBRE.",
+		"achievements":[
+			"Introduced Test Driven Development (TDD) to the automated provisioning team",
+			"Designed and implemented a new automation engine to provision user access requests"
+		],
+		"programmingLanguages":["C#"],
+		"frameworks":[".NET","ASP.NET","NxBRE"],
+		"targetEnvironment":["IIS","Active Directory","Oracle 9i","Sun Identity Manager","BMC Enterprise Security Station","Windows 2003 Server","Solaris"],
+		"developmentTools":["Visual Studio","Clearcase","ClearQuest"]
+	}]
+}, {
+	"employer":{"name":"KVH","city":"Tokyo","country":"Japan"},
+	"roles":[{
+		"type":"Permanent",
+		"title":"Lead System Architect", 
+		"start":{"year":2003,"month":10},
+		"end":{"year":2005,"month":9},
+		"description":"I was seconded to a private telecommunications company owned by Fidelity Investments called KVH. At KVH I reported to the CIO but also worked closely with the CTO and CFO architecting the integration of and supporting the implementation of Business and Operations Support Systems. The majority of the applications at KVH were deployed on Windows based platforms.",
+		"achievements":[
+			"Created and maintained the blueprint and roadmap for the overall architecture of the OSS/BSS platform",
+			"Conducted product evaluations and engaged in vendor negotiations",
+			"Designed and supported the development of [eKVH](http://ekvh.co.jp/) - a Business to Consumer (B2C) portal developed using BEA WebLogic Portal by an outsourced team in India",
+			"Designed and developed a Business to Employee (B2E) portal implemented in Struts"
+		],
+		"programmingLanguages":["Java"],
+		"frameworks":["Struts","Apache FOP","Hibernate","Velocity"],
+		"targetEnvironment":["BEA WebLogic Portal","Tomcat","webMethods","Siebel","Oracle eBusiness Suite","Portal Infranet","Micromuse Netcool","Infovista"],
+		"developmentTools":["Eclipse","CVS","LoadRunner","QuickTest Pro"]
+	}]
+}, {
+	"employer":{"name":"Fidelity Investments","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Permanent",
+		"title":"Principal Consultant / Architect",
+		"start":{"year":2000,"month":6},
+		"end":{"year":2003,"month":9},
+		"description":"At Fidelity Investments I played a leading role in three major product developments:\\n* [PlanViewer](http://www.planviewer.co.uk/) is provided by Fidelity International Limited (FIL) to allow members, sponsors and administrators of defined contributions pension schemes to view balances, review transaction history, switch out of existing investments or change their future contribution mix. PlanViewer was a J2EE application developed using Struts.\n* [ActiveTrader Pro](http://personal.fidelity.com/accounts/activetrader) is a desktop trading application provided by Fidelity eBusiness for the high net worth and active trader market segments to access their brokerage accounts, place trades, receive streaming quotes and review market news. ActiveTrader Pro was a Windows desktop application developed in C++ using ActiveX components.\n* Fidelity Online Xpress+ (FOX+) was Fidelity Investments' original desktop trading application available to all customer segments. FOX+ allowed customers to access their accounts, place trades, receive static quotes and review market news. FOX+ was a Windows desktop application developed in C++.",
+		"achievements":[
+			"I was a member of the Development Audit Team (DAT) which audited projects to ensure they adhered to best practices from a project management perspective during the project initiation, requirements gathering and solution design phases",
+			"I was a founding member of the Technical Review Board (TRB) which reviewed the proposed architectures and detailed designs of projects to ensure that those projects were technically feasible and following best practices",
+			"Ported PlanViewer from a proprietary model-view-controller framework to Struts 1.1",
+			"Led the project team in Dublin that implemented many of the key components of ActiveTrader Pro",
+			"Designed and implemented the framework for the user interface of ActiveTrader Pro",
+			"Achieved 4.5 out of 5 customer satisfaction ratings from the Active Trader Pro project stakeholders",
+			"Streamlined the configuration management and release engineering practices for FOX+",
+			"Dramatically reduced the size of the downloadable product installer for FOX+ from 12MB to 3MB",
+			"Successfully delivered quarterly releases of FOX+",
+			"Achieved 5 out of 5 customer satisfaction ratings from the FOX+ project stakeholders"
+		],
+		"programmingLanguages":["Java","C++","Javascript"],
+		"frameworks":["Struts","STL","MFC","RougeWave Libraries","COM/ATL","ADO"],
+		"targetEnvironment":["IBM WebSphere","Sybase","Solaris","Windows 95/NT/ME/2000"],
+		"developmentTools":["Eclipse","Visual C++","Clearcase","LoadRunner","WinRunner","ClearQuest","Test Director"]
+	}]
+}, {
+	"employer":{"name":"International Financial Systems","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Permanent",
+		"title":"Software Development Manager",
+		"start":{"year":1999,"month":8},
+		"end":{"year":2000,"month":5},
+		"description":"I joined IFS as the Senior Software Architect to design the architecture for a new margin trading system that would replace the company's existing thick client product offering called MarginMan. MarginMan was developed as a Windows desktop application using C++.",
+		"achievements":[
+			"Designed the architecture for a CORBA based n-tier collateralized margin trading system",
+			"Took on the role of Software Development Manager with responsibility for teams based in Dublin, Singapore and Manila"
+		],
+		"programmingLanguages":["C++"],
+		"frameworks":["Orbix","MFC"],
+		"targetEnvironment":["Windows NT"],
+		"developmentTools":["Visual C++","Visual SourceSafe"]
+	}]
+}, {
+	"employer":{"name":"AT&T Labs","city":"Redditch","country":"UK"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Technical Lead",
+		"start":{"year":1998,"month":10},
+		"end":{"year":1999,"month":7},
+		"description":"At AT&T Labs I worked for the IP Technology Organization, which was developing a platform to construct and manage network services called Common Open IP Platform (COIPP). I provided CORBA expertise to the team responsible for implementing the middle-tier components of the provisioning, billing and management systems.",
+		"achievements":[
+			"Ported the existing components from Orbix to VisiBroker",
+			"Assisted the team that ported the existing components from Windows to Solaris",
+			"Migrated the team's version control solution from PVCS to Clearcase"
+		],
+		"programmingLanguages":["Java","C++"],
+		"frameworks":["Orbix","VisiBroker"],
+		"targetEnvironment":["MQSeries","Oracle","Solaris"],
+		"developmentTools":["Visual C++","Sun C++","Clearcase","PVCS"]
+	}]
+}, {
+	"employer":{"name":"IBM","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Project Lead",
+		"start":{"year":1997,"month":10},
+		"end":{"year":1998,"month":9},
+		"description":"At IBM I worked with the Insurance Solutions Development Centre developing a customer relationship management application for insurance companies called Client Information & Integration System (CIIS).",
+		"achievements":[
+			"Led the team that designed the architecture for CIIS",
+			"Led the team developed the middle-tier components"
+		],
+		"programmingLanguages":["Java","C++"],
+		"frameworks":["Swing","Orbix","OrbixWeb"],
+		"targetEnvironment":["DB2","Solaris"],
+		"developmentTools":["Visual C++","Visual SourceSafe"]
+	}]
+}, {
+	"employer":{"name":"Microsoft","city":"Seattle","state":"WA","country":"USA"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":1996,"month":4},
+		"end":{"year":1997,"month":7},
+		"description":"At Microsoft I worked for the Infrastructure and Automation Tools team. I was responsible for developing agents to be installed on file, database, e-mail, web and proxy servers to collect usage metrics and in order to predict future server and disk space demands. These agents were installed on over 3,000 servers worldwide.",
+		"programmingLanguages":["C++"],
+		"frameworks":["MFC"],
+		"targetEnvironment":["SQL Server","Windows NT"],
+		"developmentTools":["Visual C++","Visual SourceSafe"]
+	}]
+}, {
+	"employer":{"name":"Lotus","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":1995,"month":9},
+		"end":{"year":1996,"month":3},
+		"description":"At Lotus I worked for the Global QA team that developed test, automation and localization tools used to test and localize Lotus' office application suite.",
+		"achievements":[
+			"Developed plug-ins to instrument Lotus' custom controls",
+			"Unified the code-base to eliminate the need for separate builds for each flavour of Windows"
+		],
+		"programmingLanguages":["C++"],
+		"targetEnvironment":["Windows 3.x/95/NT"],
+		"developmentTools":["Visual C++","PVCS","Lotus Notes"]
+	}]
+}, {
+	"employer":{"name":"Lehman Brothers","city":"London","country":"UK"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Project Lead",
+		"start":{"year":1994,"month":8},
+		"end":{"year":1995,"month":8},
+		"description":"At Lehman Brothers we developed and maintained applications to support the purchasing, goods inwards and accounting departments of Lehman Brothers in London.",
+		"achievements":[
+			"Recruited and led the development team",
+			"Ported existing applications from OS/2 to Windows 3.x",
+			"Carried out maintenance and implemented enhancements to meet changing business practices"
+		],
+		"programmingLanguages":["C++"],
+		"frameworks":["Object Windows Library"],
+		"targetEnvironment":["Lotus Notes","Sybase","Windows 3.x","OS/2"],
+		"developmentTools":["Borland C++","CSet++","PVCS"]
+	}]
+}, {
+	"employer":{"name":"Hewlett-Packard","city":"Grenoble","country":"France"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":1994,"month":4},
+		"end":{"year":1994,"month":7},
+		"description":"At Hewlett-Packard I was part of a small team that ported a product called Omnishare from specialized hardware to run on a standard IBM compatible PC. Omnishare was a conferencing tool that allowed users to share and annotate documents using the same telephone line for voice and data.",
+		"programmingLanguages":["C++"],
+		"frameworks":["MFC"],
+		"targetEnvironment":["Windows 3.x"],
+		"developmentTools":["Visual C++","Visual SourceSafe"]
+	}]
+}, {
+	"employer":{"name":"IBM","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Technical Lead",
+		"start":{"year":1993,"month":10},
+		"end":{"year":1994,"month":3},
+		"description":"At IBM I provided consultancy to the team developing a data warehousing tool called DataRefresher. When I joined the DataRefresher was failing to meet the acceptance criteria set by the QA team due to significant memory leaks, race conditions and inter-process communication issues.",
+		"achievements":[
+			"I identified the sources of all major defects that were preventing the QA team accept the build.",
+			"Re-introduced release engineering processes that had been abandoned by the development team."
+		],
+		"programmingLanguages":["C++"],
+		"targetEnvironment":["OS/2","DB2","Communications Manager"],
+		"developmentTools":["CSet++"]
+	}]
+}, {
+	"employer":{"name":"British Rail","city":"Darlington","country":"UK"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":1993,"month":3},
+		"end":{"year":1993,"month":9},
+		"description":"At British Rail I was part of the team developing a client server application called Advanced Transmanche Operations Management System (ATOMS). ATOMS was the passenger booking and rolling stock management system developed for British Rail, SNCF France and SNCF Belgium to operate services running through the Euro Tunnel.",
+		"achievements":[
+			"Designed and implemented the framework for the ATOMS user interface."
+		],
+		"programmingLanguages":["C++"],
+		"frameworks":["MFC"],
+		"targetEnvironment":["Windows 3.x","Oracle"],
+		"developmentTools":["Visual C++","PVCS"]
+	}]
+}, {
+	"employer":{"name":"AT&T Istel","city":"Redditch","country":"UK"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":1992,"month":9},
+		"end":{"year":1993,"month":1},
+		"description":"At AT&T Istel I implemented a light-weight object request broker for Windows that allowed inter-process communication on a personal computer and with a server process running on an Unix platform. The object request broker pre-dated Common Object Request Broker Architecture (CORBA) and was based on Advanced Network Systems Architecture (ANSA).",
+		"achievements":[
+			"Developed the inter-process communication for co-located Windows applications using Dynamic Data Exchange (DDE).",
+			"Developed the client-side communication between the Windows applications and server processes over a serial connection."
+		],
+		"programmingLanguages":["C++"],
+		"targetEnvironment":["Windows 3.x","Unix"],
+		"developmentTools":["Visual C++","PVCS"]
+	}]
+}, {
+	"employer":{"name":"Polydata","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Senior Software Engineer",
+		"start":{"year":1989,"month":4},
+		"end":{"year":1992,"month":8},
+		"description":"At Polydata I designed and developed bespoke applications for petro-chemical companies including DOW Chemical , DuPont , ICI , Bayer and Elf Atochem. These applications were electronic catalogues describing the material properties of the plastics manufactured by those companies.",
+		"achievements":[
+			"Consolidated and re-factored the existing source code developed for different customers into a single code base.",
+			"Automated the release engineering process."
+		],
+		"programmingLanguages":["Pascal, C, C++, Assembler"],
+		"targetEnvironment":["MS-DOS"],
+		"developmentTools":["Turbo Pascal","Turbo C++","RCS"]
+	}]
+}]}
