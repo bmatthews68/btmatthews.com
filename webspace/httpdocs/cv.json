@@ -1,4 +1,22 @@
 {"jobs":[{
+	"employer":{"name":"Daon","city":"Dublin","country":"Ireland"},
+	"roles":[{
+		"type":"Contract",
+		"title":"Contractor - Software Engineer",
+		"start":{"year":2013,"month":9},
+		"end":{"year":2013,"month":12},
+		"description":"At [Daon](http://www.daon.com) I worked independently developing features for their [IdentityX](http://www.identityx.com) product which uses biometric and multi-factor authentication to secure transactions on mobile devices.",
+		"achievements":[
+			"Migrated the bulk of the IdentityX code-base from a legacy Ant-based to a Maven-based build.",
+			"Implemented the support for RSA SecurID based authentication for IdentityX.",
+			"Introduced the Jasmine test framework to unit test the server-side JavaScript scripts glued together many of the components of the IdentityX server."
+		],
+		"programmingLanguages":["Java","JavaScript"],
+		"frameworks":["Spring","Jasmine"],
+		"targetEnvironment":["Redhat Linux","Windows Server","Tomcat","Oracle","SQL Server","MySQL"],
+		"developmentTools":["Eclipse","Subversion","Maven","Ant","Jenkins"]
+	}]
+}, {
 	"employer":{"name":"Realex Payments","city":"Dublin","country":"Ireland"},
 	"roles":[{
 		"type":"Contract",
