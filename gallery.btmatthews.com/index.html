@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brian Matthews' Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/blueimp-gallery.min.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+    .item{height:768px}
+    .carousel-control.left{background-image:none;background-repeat:none}
+    .carousel-control.right{background-image:none;background-repeat:none}
+    .carousel-inner .item img{margin:0 auto}
+    </style>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <header>       
+          <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+              <h1 class="text-center">Brian Matthews' Photography</h1>
+            </div>
+          </div>
+        </header>
+        <div class="row">
+          <div class="col-xs-12 col-md-12 col-lg-12">
+            <hr />
+            <div id="carousel" class="blueimp-gallery blueimp-gallery-carousel">
+              <div id="slides"></div>
+              <h3 id="title"></h3>
+              <a id="prev">‹</a>
+              <a id="next">›</a>
+              <a id="play-pause"></a>
+              <ol class="indicator"></ol>
+            </div>  
+            <div id="photo-carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#photo-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#photo-carousel" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                <img src="pictures/LangeWapper.jpg" alt="Lange Wapper" />
+                <div class="carousel-caption">
+                  <h3>Lange Wapper</h3>
+                  <p></p>
+                </div>
+              </div>
+                <div class="item">
+                  <img src="pictures/HetSteen.jpg" alt="Het Steen" />
+                  <div class="carousel-caption">
+                    <h3>Het Steen</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#photo-carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#photo-carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <footer>
+          <div class="row">
+            <div class="col-xs-4 col-md-4 col-lg-4">
+              &copy; 2013-2014 <a href="brian@btmatthews.com">Brian Matthews</a>.<br/>
+              All rights reserved, worldwide.
+            </div>
+            <div class="col-xs-4 col-md-4 col-lg-4">
+                <ul class="fa-ul">
+                  <li><i class="fa fa-li fa-pencil"></i>60 Barons Hall Grove,<br />Balbriggan,<br />Co. Dublin,<br />Ireland</li>
+                  <li><i class="fa fa-li fa-envelope"></i><a href="mailto:brian@btmatthews.com">brian@btmatthews.com</a></li>
+                  <li><i class="fa fa-li fa-phone"></i>+353&nbsp;(87)&nbsp;141&nbsp;8311</li>
+                </ul>
+		    </div>
+            <div class="col-xs-4 col-md-4 col-lg-4">
+              <div class="text-right">
+                <a href="https://facebook.com/bmatthews68"><i class="fa fa-facebook-square fa-2x"></i></a>
+                <a href="https://github.com/bmatthews68"><i class="fa fa-github-square fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/bmatthews68"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                <a href="https://plus.google.com/+BrianMatthews68"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                <a href="https://twitter.com/bmatthews68"><i class="fa fa-twitter-square fa-2x"></i></a>
+                <a href="http://blog.btmatthews.com"><i class="fa fa-rss-square fa-2x"></i></a>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/blueimp-gallery.min.js"></script>
+    <script type="text/javascript">
+      $('#carousel').data('gallery');
+    </script>
+  </body>
+</html>
+
